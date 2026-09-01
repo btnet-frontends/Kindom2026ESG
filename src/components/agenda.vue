@@ -3,15 +3,15 @@ defineProps({
     infoData: Object
 });
 
-// 依照「是否有 role/title」把 speakers 分組：
-// 只要 sp.role 或 sp.title 有值，就開一個新的一組；
-// role/title 皆空的項目，會併入「前一個」有 role/title 的那組（共用同一條左邊線）。
+// 依照「是否有 role」把 speakers 分組：
+// 只要 sp.role 有值（如 主持人、與談人），就開一個新組；
+// sp.role 為空的項目，會併入「前一個」有 role 的那組（共用同一條左邊綠色直線）。
 function groupSpeakers(speakers) {
     if (!speakers || !speakers.length) return [];
     const groups = [];
     let current = null;
     speakers.forEach((sp) => {
-        if (sp.role || sp.title || !current) {
+        if (sp.role || !current) {
             current = [];
             groups.push(current);
         }
@@ -41,7 +41,7 @@ function groupSpeakers(speakers) {
                     14:00-16:30 <span class="text-sm sm:text-base md:text-lg">(13:30開放報到)</span>
                 </div>
                 <div class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#222222] leading-snug">
-                    冠德民權大樓1501會議室
+                    冠德民權大樓15樓論壇室
                 </div>
                 <div class="text-base sm:text-lg md:text-xl font-bold text-[#01989f] leading-snug">
                     (臺北市松山區民權東路三段169號15樓)
@@ -91,9 +91,11 @@ function groupSpeakers(speakers) {
                                         :key="spIdx"
                                         class="speaker_line flex flex-col gap-1 text-sm py-1"
                                     >
-                                        <span v-if="sp.role || sp.title" class="flex items-center gap-1.5">
-                                            <span v-if="sp.role" class="text-[#555555] font-semibold">{{ sp.role }}</span>
-                                            <span v-if="sp.role" class="text-[#01989f] font-bold">｜</span>
+                                        <span v-if="sp.role || sp.title" class="flex flex-col gap-0.5">
+                                            <span v-if="sp.role" class="flex items-center gap-1">
+                                                <span class="text-[#555555] font-semibold">{{ sp.role }}</span>
+                                                <span class="text-[#01989f] font-bold">｜</span>
+                                            </span>
                                             <span v-if="sp.title" class="text-[#022f56] font-medium">{{ sp.title }}</span>
                                         </span>
                                         <span v-if="sp.highlightName" class="speaker_pill bg-[#72e9d3] text-[#022f56] font-bold text-xs px-3 py-0.5 rounded-full self-start">
@@ -116,9 +118,11 @@ function groupSpeakers(speakers) {
                                     :key="spIdx"
                                     class="speaker_line flex flex-col gap-1 text-sm sm:text-base py-1"
                                 >
-                                    <span v-if="sp.role || sp.title" class="flex items-center gap-1.5 flex-wrap">
-                                        <span v-if="sp.role" class="text-[#555555] font-semibold">{{ sp.role }}</span>
-                                        <span v-if="sp.role" class="text-[#01989f] font-bold">｜</span>
+                                    <span v-if="sp.role || sp.title" class="flex flex-col gap-0.5">
+                                        <span v-if="sp.role" class="flex items-center gap-1">
+                                            <span class="text-[#555555] font-semibold">{{ sp.role }}</span>
+                                            <span class="text-[#01989f] font-bold">｜</span>
+                                        </span>
                                         <span v-if="sp.title" class="text-[#022f56] font-medium">{{ sp.title }}</span>
                                     </span>
                                     <span v-if="sp.highlightName" class="speaker_pill bg-[#72e9d3] text-[#022f56] font-bold text-xs sm:text-sm px-3 py-0.5 rounded-full self-start">

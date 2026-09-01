@@ -234,7 +234,7 @@ onUnmounted(() => {
 .speaker_item {
   display: flex;
   flex-direction: column;
-  cursor: pointer;
+  // cursor: pointer;
 }
 
 .speaker_img_wrap {
@@ -366,6 +366,7 @@ onUnmounted(() => {
   background: #e8f6f6;
 }
 
+/*
 @media (hover: hover) and (pointer: fine) {
   .speaker_item:hover .speaker_panel {
     max-height: 260px;
@@ -377,6 +378,7 @@ onUnmounted(() => {
     max-height: 260px;
   }
 }
+*/
 
 @media screen and (max-width: 1024px) {
   .speaker_grid {

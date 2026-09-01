@@ -8,6 +8,12 @@
             "tagClassName":"menu_about"
         },{
             "tag":false,
+            "tagName":"講者陣容",
+            "tagNameEn":"speakers",
+            "tagUrl":"#speakers",
+            "tagClassName":"menu_speakers"
+        },{
+            "tag":false,
             "tagName":"精彩議程",
             "tagNameEn":"agenda",
             "tagUrl":"#agenda",
@@ -44,7 +50,7 @@
             "date":"2026/09/23 (二)",
             "time":"14:00-16:30",
             "checkInTime":"(13:30開放報到)",
-            "location":"冠德民權大樓1501會議室",
+            "location":"冠德民權大樓15樓論壇室",
             "locationInfo":"(臺北市松山區民權東路三段169號)",
             "agendaInfo":[
                 {
@@ -64,16 +70,13 @@
                     "topic":"主辦單位致詞",
                     "tag":"",
                     "speakers":[
-                        { "role":"", "title":"冠德企業集團代表", "highlightName":"", "status":"" }
+                        { "role":"", "title":"今周刊發行人", "highlightName":"梁永煌", "status":"" }
                     ]
                 },
                 {
                     "time":"14:07-14:12",
                     "topic":"協辦單位致詞",
-                    "tag":"",
-                    "speakers":[
-                        { "role":"", "title":"今周刊代表", "highlightName":"", "status":"" }
-                    ]
+                    "tag":""
                 },
                 {
                     "time":"14:12-14:15",
@@ -118,11 +121,10 @@
 "speakers":[
     { "role":"主持人", "title":"今周刊研發長", "highlightName":"王之杰", "status":"" },
     { "role":"與談人", "title":"Global Mall總經理", "highlightName":"陳依華", "status":"" },
-        { "role":"與談人", "title":"環球品牌商", "highlightName":"", "status":"" },
     { "role":"", "title":"", "highlightName":"UNIQLO 代表", "status":"" },
-    { "role":"", "title":"", "highlightName":"台灣無印良品 地方永續企劃室室長 徐恒琦", "status":"" },
-    { "role":"", "title":"", "highlightName":"成真咖啡 品牌行銷部協理 蔡靜佩", "status":"" },
-    { "role":"與談人", "title":"萬秀洗衣店負責人", "highlightName":"張瑞夫", "status":"" }
+    { "role":"", "title":"台灣無印良品 地方永續企劃室室長", "highlightName":"徐恒琦", "status":"" },
+    { "role":"", "title":"成真咖啡 品牌行銷部協理", "highlightName":"蔡靜佩", "status":"" },
+    { "role":"", "title":"萬秀洗衣店負責人", "highlightName":"張瑞夫", "status":"" }
 ]
 }
             ]
@@ -242,10 +244,10 @@
     "title":"交通資訊",
     "titleColor":"#00ffb9",
     "titleEn":"location",
-    "venue":"冠德民權大樓1501會議室",
+    "venue":"冠德民權大樓15樓論壇室",
     "date":"09.23",
     "dateNote":"(三) 14:00-16:30",
-    "mapUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.1672379946413!2d121.54469307618004!3d25.06232023714921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab003d695369%3A0x7db3b0dc1636f2eb!2z5Yag5b636ZuG5ZyY5rCR5qyK5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1785119451004!5m2!1szh-TW!2stw",
+    "mapUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.1673806801195!2d121.54726799999999!3d25.0623154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab003d695369%3A0x7db3b0dc1636f2eb!2z5Yag5b636ZuG5ZyY5rCR5qyK5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1788234747914!5m2!1szh-TW!2stw",
     "transportGroups":[
         {
             "title":"臺北松山機場",
