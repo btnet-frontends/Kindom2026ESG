@@ -1,0 +1,320 @@
+{
+    "menu": [
+        {
+            "tag":false,
+            "tagName":"關於論壇",
+            "tagNameEn":"about",
+            "tagUrl":"#about",
+            "tagClassName":"menu_about"
+        },{
+            "tag":false,
+            "tagName":"精彩議程",
+            "tagNameEn":"agenda",
+            "tagUrl":"#agenda",
+            "tagClassName":"menu_agenda"
+        },{
+            "tag":false,
+            "tagName":"報名表單",
+            "tagNameEn":"sign up",
+            "tagUrl":"#signUp",
+            "tagClassName":"menu_signup"
+        },{
+            "tag":false,
+            "tagName":"交通資訊",
+            "tagNameEn":"location",
+            "tagUrl":"#location",
+            "tagClassName":"menu_location"
+        }
+    ],
+    "content":[
+        {
+    "title":"走進日常的永續生活新提案",
+    "titleColor":"#01989f",
+    "titleEn":"about",
+    "text":[
+        "當ESG逐漸走入食、衣、住、行，永續不再只是企業責任，更成為消費者的生活選擇與品牌信任關鍵。",
+        "冠德企業集團攜手《今周刊》推出【2026永續生活大調查發佈會】，透過調查洞察民眾對永續生活的真實期待，",
+        "並串聯專家與企業觀點，探索永續如何從理念走入日常，打造更有感的永續生活圈。"
+    ]
+},
+        {
+            "title":"精彩議程",
+            "titleColor":"#01989f",
+            "titleEn":"AGENDA",
+            "date":"2026/09/23 (二)",
+            "time":"14:00-16:30",
+            "checkInTime":"(13:30開放報到)",
+            "location":"冠德民權大樓1501會議室",
+            "locationInfo":"(臺北市松山區民權東路三段169號)",
+            "agendaInfo":[
+                {
+                    "time":"13:30-14:00",
+                    "topic":"來賓報到",
+                    "tag":"",
+                    "speakers":[]
+                },
+                {
+                    "time":"14:00-14:02",
+                    "topic":"活動開場",
+                    "tag":"",
+                    "speakers":[]
+                },
+                {
+                    "time":"14:02-14:07",
+                    "topic":"主辦單位致詞",
+                    "tag":"",
+                    "speakers":[
+                        { "role":"", "title":"冠德企業集團代表", "highlightName":"", "status":"" }
+                    ]
+                },
+                {
+                    "time":"14:07-14:12",
+                    "topic":"協辦單位致詞",
+                    "tag":"",
+                    "speakers":[
+                        { "role":"", "title":"今周刊代表", "highlightName":"", "status":"" }
+                    ]
+                },
+                {
+                    "time":"14:12-14:15",
+                    "topic":"貴賓大合影",
+                    "tag":"",
+                    "speakers":[]
+                },
+                {
+                    "time":"14:15-14:40",
+                    "topic":"ESG生活趨勢洞察發布",
+                    "tag":"調查結果",
+                    "speakers":[
+                        { "role":"", "title":"中國文化大學永續創新學院院長", "highlightName":"方元沂" }
+                    ]
+                },
+                {
+                    "time":"14:40-15:05",
+                    "topic":"從全球趨勢到在地實踐：台灣企業永續生活的轉型關鍵",
+                    "tag":"永續趨勢觀點",
+                    "speakers":[
+                        { "role":"", "title":"KPMG安侯永續董事總經理", "highlightName":"黃正忠" }
+                    ]
+                },
+                {
+                    "time":"15:05-15:25",
+                    "topic":"打造美好永續生活圈的實踐路徑",
+                    "tag":"企業實踐觀點",
+                    "speakers":[
+                        { "role":"", "title":"冠德建設總經理", "highlightName":"張勝安", "status":"" }
+                    ]
+                },
+                {
+                    "time":"15:25-15:40",
+                    "topic":"中場休息&交流",
+                    "tag":"",
+                    "speakers":[]
+                },
+                {
+                    "time":"15:40-16:30",
+                    "topic":"打造永續生活圈",
+                    "tag":"焦點對談",
+"speakers":[
+    { "role":"主持人", "title":"今周刊研發長", "highlightName":"王之杰", "status":"" },
+    { "role":"與談人", "title":"Global Mall總經理", "highlightName":"陳依華", "status":"" },
+        { "role":"與談人", "title":"環球品牌商", "highlightName":"", "status":"" },
+    { "role":"", "title":"", "highlightName":"UNIQLO 代表", "status":"" },
+    { "role":"", "title":"", "highlightName":"台灣無印良品 地方永續企劃室室長 徐恒琦", "status":"" },
+    { "role":"", "title":"", "highlightName":"成真咖啡 品牌行銷部協理 蔡靜佩", "status":"" },
+    { "role":"與談人", "title":"萬秀洗衣店負責人", "highlightName":"張瑞夫", "status":"" }
+]
+}
+            ]
+        },
+{
+    "title": "延伸閱讀",
+    "titleEn": "References",
+    "titleColor": "#ffffff",
+    "videoUrl": "",
+    "videoThumbnail": "",
+    "references": [
+         {
+        "img": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/187545/1200_20260504150830.jpg_1140x855.jpg",
+        "title": "冠德集團首辦野餐日 結合時尚職人攝影實踐跨界共融日常",
+        "desc": "在企業永續發展逐步深化的當下，「多元、公平與共融（DEI）」已從理念走向具體實踐。冠德集團透過跨事業體整合，將企業資源轉化為可參與的生活場景，讓共融不僅停留於制度設計，而能真實發生於日常互動之中。",
+        "url": "https://www.businesstoday.com.tw/article/category/183016/post/202605040025/"
+    },
+             {
+        "img": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/185608/1000_20260313175105.jpg_1140x855.jpg",
+        "title": "極端氣候下的守護者 根基營造「繕循環」重建偏鄉的災後生活",
+        "desc": "根據德國環境組織「Germanwatch」發布的 2026 年《全球氣候風險指數》（CRI）報告，極端氣候已對全球經濟造成深遠衝擊。在台灣，單以 2025 年為例，接連遭逢的丹娜絲颱風與花蓮馬太鞍堰塞湖溢流，累積經濟損失接近 40 億元。面對日益頻繁的天災，企業如何迅速投入專業資源，成為社會重建的關鍵力量？",
+        "url": "https://www.businesstoday.com.tw/article/category/183016/post/202603130051/"
+    }
+
+    ]
+},
+        {
+            "title":"講者陣容",
+            "titleColor":"#00ffb9",
+            "titleEn":"speakers"
+        },
+{
+    "title":"立即報名",
+    "titleColor":"#00ffb9",
+    "titleEn":"sign up",
+    "label":[
+        {
+            "tagName":"姓名",
+            "inputName":"Name",
+            "placeholder":"輸入姓名",
+            "type": "input"
+        },{
+            "tagName":"聯絡手機",
+            "inputName":"Cell_phone",
+            "placeholder":"0912345678",
+            "type": "input"
+        },{
+            "tagName":"Email",
+            "inputName":"Email",
+            "placeholder":"",
+            "type": "input"
+        },{
+            "tagName":"性別",
+            "inputName":"Gender",
+            "type": "select",
+            "option":[
+                { "optionName":"請選擇性別", "value":"" },
+                { "optionName":"男", "value":"男" },
+                { "optionName":"女", "value":"女" }
+            ]
+        },{
+            "tagName":"年齡",
+            "inputName":"Age",
+            "type": "select",
+            "option":[
+                { "optionName":"請選擇年齡", "value":"" },
+                { "optionName":"20歲以下", "value":"20歲以下" },
+                { "optionName":"21-30歲", "value":"21-30歲" },
+                { "optionName":"31-40歲", "value":"31-40歲" },
+                { "optionName":"41-50歲", "value":"41-50歲" },
+                { "optionName":"51-60歲", "value":"51-60歲" },
+                { "optionName":"61歲以上", "value":"61歲以上" }
+            ]
+        },{
+            "tagName":"產業別",
+            "inputName":"Industry",
+            "type": "select",
+            "option":[
+                { "optionName":"請選擇產業別", "value":"" },
+                { "optionName":"農、林、漁、牧業", "value":"農、林、漁、牧業" },
+                { "optionName":"礦業及土石採取業", "value":"礦業及土石採取業" },
+                { "optionName":"製造業", "value":"製造業" },
+                { "optionName":"電力及燃氣供應業", "value":"電力及燃氣供應業" },
+                { "optionName":"營造業", "value":"營造業" },
+                { "optionName":"批發及零售業", "value":"批發及零售業" },
+                { "optionName":"運輸及倉儲業", "value":"運輸及倉儲業" },
+                { "optionName":"住宿及餐飲業", "value":"住宿及餐飲業" },
+                { "optionName":"資訊及通訊傳播業", "value":"資訊及通訊傳播業" },
+                { "optionName":"金融及保險業", "value":"金融及保險業" },
+                { "optionName":"不動產業", "value":"不動產業" },
+                { "optionName":"專業、科學及技術服務業", "value":"專業、科學及技術服務業" },
+                { "optionName":"支援服務業", "value":"支援服務業" },
+                { "optionName":"公共行政及國防；強制性社會安全", "value":"公共行政及國防；強制性社會安全" },
+                { "optionName":"教育服務業", "value":"教育服務業" },
+                { "optionName":"醫療保健及社會工作服務業", "value":"醫療保健及社會工作服務業" },
+                { "optionName":"藝術、娛樂及休閒服務業", "value":"藝術、娛樂及休閒服務業" },
+                { "optionName":"其他服務業", "value":"其他服務業" }
+            ]
+        },{
+            "tagName":"服務單位",
+            "inputName":"ServiceUnit",
+            "placeholder":"",
+            "type": "input"
+        },{
+            "tagName":"職稱",
+            "inputName":"Job_Title",
+            "placeholder":"",
+            "type": "input"
+        }
+    ],
+"announce":{
+    "text":"我已詳閱並同意個資告知事項",
+    "detail":"謹依個人資料保護法第8條規定告知以下事項：<br>您為本次活動的參與者（以下簡稱參與人）。參與人所填寫的資料將會提供予今周刊。請確認所有參與人在勾選同意前已詳閱並同意以下條款：今周刊基於客戶管理、統計及調查分析、行銷及其他合於營業登記項目或章程所定業務需要或其他法令所准許之特定目的，向參與人蒐集前述個人資料，並管理維護及處理利用，其得就該等個人資料用於寄送出版物、提供各項服務或活動訊息與調查分析使用。參與人得向活動執行單位請求查閱、提供複本、更正或補充個人資訊，及請求刪除或停止處理利用。若參與人填寫資料不完整時，可能會影響參與人獲得今周刊所提供之服務或各項訊息通知與活動之權益。<br><br>活動全程免費，主辦單位保有修改活動內容及審核出席的權利。<br><br>注意事項：<br>本活動為免費參與，採預約報名審核制。<br>報名送出需經審核後，於活動5-7日前以手機或E-mail寄發「報名成功簡訊」，敬請正確填寫聯絡資訊與手機。<br>經審核資格不符與資料有誤者，於活動3日前以手機或E-mail寄發「婉拒簡訊」，敬請見諒！<br>因應疫情、氣候因素的不可控性，敬請配合並保持關注主辦單位公告或現場說明，留意臨時變更狀況。<br>若有未盡事宜，依照主辦單位公告為準，並主辦單位保留活動議程更動及終止之權利。<br><br>今周刊服務專線：02-25816196分機636(週一至週五 9:00-12:00、13:30-18:00)"
+}
+},
+{
+    "title":"交通資訊",
+    "titleColor":"#00ffb9",
+    "titleEn":"location",
+    "venue":"冠德民權大樓1501會議室",
+    "date":"09.23",
+    "dateNote":"(三) 14:00-16:30",
+    "mapUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.1672379946413!2d121.54469307618004!3d25.06232023714921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab003d695369%3A0x7db3b0dc1636f2eb!2z5Yag5b636ZuG5ZyY5rCR5qyK5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1785119451004!5m2!1szh-TW!2stw",
+    "transportGroups":[
+        {
+            "title":"臺北松山機場",
+            "distanceNote":"（距離會場約 2 公里）",
+            "icon":"icon_airport.svg",
+            "items":[
+                {
+                    "type":"捷運",
+                    "icon":"icon_mrt.svg",
+                    "desc":"搭乘文湖線至 BR12 中山國中站，出站後步行約 7-10 分鐘至冠德民權大樓。"
+                },
+                {
+                    "type":"計程車",
+                    "icon":"icon_taxi.svg",
+                    "desc":"由臺北松山機場乘車約 10 分鐘。（車資約 NTD 120-170）"
+                }
+            ]
+        },
+        {
+            "title":"臺北車站／高鐵臺北站",
+            "distanceNote":"（距離會場約 5 公里）",
+            "icon":"icon_train.svg",
+            "items":[
+                {
+                    "type":"捷運",
+                    "icon":"icon_mrt.svg",
+                    "desc":"搭乘板南線至 忠孝復興站，轉乘文湖線至 BR12 中山國中站，出站後步行約 7-10 分鐘至冠德民權大樓。"
+                },
+                {
+                    "type":"計程車",
+                    "icon":"icon_taxi.svg",
+                    "desc":"由臺北車站乘車約 15-25 分鐘。（車資約 NTD 220-300）"
+                }
+            ]
+        }
+    ]
+},
+        {
+            "title":"產業動態",
+            "titleColor":"#3b4754",
+            "titleEn":"NEWS",
+            "titleEnColor":"#5e74f3",
+            "articles":[
+                {
+                "img":"/industry_img.png",
+                "title":"超前布局四大關鍵力<br>掌握二O二五全球原物料投資致勝契機",
+                "describe":"美國總統川普效應啟動交易行情，帶動美元強勢走高，通膨壓力推升美國國債殖利率，資金流動揭示市場洶湧暗潮；地緣政治衝突下，原油減產帶來短期價格支撐；而農產品黃豆因種植成本攀升與耕地減少，築底後需求前景樂觀；銅身為全球工業核心金屬原料，受惠於清潔能源建設，成最有潛力的投資焦點。永豐期貨「二○二五投資新契機」論壇聚焦關鍵趨勢，邀請三位專家破解通膨風險，掌握原物料市場致勝策略，助力投資者迎接新年財富機會。",
+                "url":"https://www.businesstoday.com.tw/article/category/183012/post/202412240019/?utm_source=businesstoday&utm_medium=search&utm_campaign=article"
+                },
+                {
+                "img":"/industry_img.png",
+                "title":"超前布局四大關鍵力<br>掌握二O二五全球原物料投資致勝契機",
+                "describe":"美國總統川普效應啟動交易行情，帶動美元強勢走高，通膨壓力推升美國國債殖利率，資金流動揭示市場洶湧暗潮；地緣政治衝突下，原油減產帶來短期價格支撐；而農產品黃豆因種植成本攀升與耕地減少，築底後需求前景樂觀；銅身為全球工業核心金屬原料，受惠於清潔能源建設，成最有潛力的投資焦點。永豐期貨「二○二五投資新契機」論壇聚焦關鍵趨勢，邀請三位專家破解通膨風險，掌握原物料市場致勝策略，助力投資者迎接新年財富機會。",
+                "url":"https://www.businesstoday.com.tw/article/category/183012/post/202412240019/?utm_source=businesstoday&utm_medium=search&utm_campaign=article"
+                },
+                {
+                "img":"/industry_img.png",
+                "title":"超前布局四大關鍵力<br>掌握二O二五全球原物料投資致勝契機",
+                "describe":"美國總統川普效應啟動交易行情，帶動美元強勢走高，通膨壓力推升美國國債殖利率，資金流動揭示市場洶湧暗潮；地緣政治衝突下，原油減產帶來短期價格支撐；而農產品黃豆因種植成本攀升與耕地減少，築底後需求前景樂觀；銅身為全球工業核心金屬原料，受惠於清潔能源建設，成最有潛力的投資焦點。永豐期貨「二○二五投資新契機」論壇聚焦關鍵趨勢，邀請三位專家破解通膨風險，掌握原物料市場致勝策略，助力投資者迎接新年財富機會。",
+                "url":"https://www.businesstoday.com.tw/article/category/183012/post/202412240019/?utm_source=businesstoday&utm_medium=search&utm_campaign=article"
+                }
+            ]
+        },{
+            "title":"共同主辦單位",
+            "titleColor":"#3b4754"
+        }
+    ],
+    "footer":{
+        "text":"今周文化事業(股)公司 / 今周行銷(股)公司 / 今周出版(股)公司 版權所有 本網站圖文非經本社同意不得刊載",
+        "copyright":"Copyright © 2026 Business Today All rights reserved."
+    }
+}

@@ -1,0 +1,133 @@
+---
+import Header from './header.vue';
+import Footer from './footer.vue';
+import Kv from './kv.vue';
+import About from './about.vue';
+import Agenda from './agenda.vue';
+import Speakers from './speakers.vue';
+import SignUp from './signUp.vue';
+import Location from './location.vue';
+import References from './references.vue';
+import Gototop from './Gototop.vue';
+import SignUpFiexd from './SignUpFiexd.vue';
+
+import infoData from '../assets/json/info.json'
+import speakers from '../assets/json/speaker.json'
+
+import '../styles/global.css';
+
+const base = import.meta.env.BASE_URL;
+const c06 = `${base}bgcercle-06.png`;
+const c07 = `${base}bgcercle-07.png`;
+const c08 = `${base}bgcercle-08.png`;
+---
+
+<div id="container">
+	<main>
+		<Header menu={infoData.menu} client:load />
+		<section id="kv" class="relative w-full overflow-hidden">
+			<Kv client:load />
+		</section>
+
+<section id="about" class="sec relative w-full overflow-hidden section-bg" style="margin-top: -3px;">
+    <img src={c06} class="deco" style="top:8%; left:-160px; width:720px; transform:rotate(-8deg);" alt="" aria-hidden="true" />
+    <img src={c07} class="deco" style="bottom:-2%; right:-90px; width:480px; transform:rotate(12deg);" alt="" aria-hidden="true" />
+    <div class="sec-content">
+        <About infoData={infoData.content[0]} client:load />
+    </div>
+</section>
+
+		<!-- <section id="speakers" class="sec relative w-full overflow-hidden section-bg">
+			<img src={c08} class="deco" style="top:-8%; right:-140px; width:680px; transform:rotate(6deg);" alt="" aria-hidden="true" />
+			<img src={c06} class="deco" style="bottom:8%; left:-60px; width:420px; transform:rotate(-14deg);" alt="" aria-hidden="true" />
+			<div class="sec-content">
+				<Speakers speakers={speakers.data} infoData={infoData.content[3]} client:load />
+			</div>
+		</section> -->
+
+		<section id="agenda" class="sec relative w-full overflow-hidden section-bg">
+			<img src={c06} class="deco" style="top:-8%; right:-120px; width:500px; transform:rotate(10deg);" alt="" aria-hidden="true" />
+			<img src={c07} class="deco" style="top:45%; left:-70px; width:700px; transform:rotate(20deg);" alt="" aria-hidden="true" />
+			<img src={c08} class="deco" style="bottom:-10%; right:-150px; width:700px; transform:rotate(-10deg);" alt="" aria-hidden="true" />
+			<div class="sec-content">
+				<Agenda infoData={infoData.content[1]} client:visible />
+			</div>
+		</section>
+
+		<section id="references" class="sec relative w-full overflow-hidden">
+			<div class="sec-content">
+				<References infoData={infoData.content[2]} client:visible />
+			</div>
+		</section>
+
+		<section id="signUp" class="sec relative w-full overflow-hidden section-bg">
+			<img src={c08} class="deco" style="top:6%; right:-80px; width:440px; transform:rotate(-16deg);" alt="" aria-hidden="true" />
+			<img src={c07} class="deco" style="bottom:-8%; left:-160px; width:660px; transform:rotate(9deg);" alt="" aria-hidden="true" />
+			<div class="sec-content">
+				<SignUp infoData={infoData.content[4]} client:visible />
+			</div>
+		</section>
+
+<section id="location" class="sec relative w-full overflow-hidden section-bg">
+    <img src={c06} class="deco" style="top:-10%; left:-150px; width:900px; transform:rotate(-5deg);" alt="" aria-hidden="true" />
+    <img src={c08} class="deco" style="bottom:6%; right:-70px; width:620px; transform:rotate(15deg);" alt="" aria-hidden="true" />
+			<div class="sec-content">
+				<Location infoData={infoData.content[5]} client:visible />
+			</div>
+		</section>
+
+		<section id="footer" class="relative w-full overflow-hidden">
+			<Footer footerInfo={infoData.footer} client:visible />
+		</section>
+
+		<SignUpFiexd client:load />
+		<Gototop client:load />
+	</main>
+</div>
+
+<style>
+	.section-bg {
+		background-color: #f1f1f1;
+	}
+
+	.sec {
+		overflow: visible;
+	}
+
+	#container {
+		overflow-x: hidden;
+	}
+
+	.deco {
+		position: absolute;
+		height: auto;
+		opacity: 0.55;
+		pointer-events: none;
+		user-select: none;
+		z-index: 0;  
+	}
+
+	.sec-content {
+		position: relative;
+		z-index: 1;
+		width: 100%;
+	}
+
+	#about    { padding: 90px 0; }
+	#location { padding: 90px 0; }
+	#references {
+		padding: 90px 0;
+		background: url('../assets/image/bg2.jpg') fixed center center / cover no-repeat;
+	}
+
+	@media screen and (max-width: 1024px) {
+		#about    { padding: 0; }
+		#location { padding: 0; }
+		#references { padding: 0; }
+		.deco { opacity: 0.4; width: 60vw !important; }
+	}
+
+	@media screen and (max-width: 640px) {
+		.deco { opacity: 0.28; width: 75vw !important; }
+	}
+</style>
