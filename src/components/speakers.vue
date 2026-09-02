@@ -62,7 +62,7 @@ onUnmounted(() => {
           <h2 class="speaker_title_main text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide relative z-10 m-0">
             {{ infoData.title || '講者陣容' }}
           </h2>
-          <p class="speaker_subtitle">{{ infoData.subtitle || '匯聚產學研跨界菁英，共繪科技新藍圖' }}</p>
+          <!-- <p class="speaker_subtitle">{{ infoData.subtitle || '匯聚產學研跨界菁英，共繪科技新藍圖' }}</p> -->
         </div>
 
         <div class="speaker_grid">
