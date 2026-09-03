@@ -70,8 +70,8 @@ onUnmounted(() => {
             v-for="(item, idx) in speakers"
             :key="idx"
             class="speaker_item"
-            :class="{ 'is-active': activeCardIndex === idx }"
-            @click="toggleCard(idx)"
+            :class="{ 'is-active': activeCardIndex === idx, 'no-desc': !item.desc }"
+            @click="item.desc ? toggleCard(idx) : null"
           >
             <div class="speaker_img_wrap">
               <img :src="item.img" :alt="item.name" class="speaker_photo" />
@@ -91,10 +91,10 @@ onUnmounted(() => {
                   </div>
                 </div>
 
-                <div class="speaker_panel">
+                <div v-if="item.desc" class="speaker_panel">
                   <div class="speaker_divider"></div>
 
-                  <p class="speaker_desc">{{ item.desc }}</p>
+                  <p class="speaker_desc" v-html="item.desc"></p>
 
                   <button
                     type="button"
@@ -139,7 +139,7 @@ onUnmounted(() => {
                   <h4 class="speaker_modal_section_title">講者簡介</h4>
                   <p v-if="modalSpeaker.current">現職：{{ modalSpeaker.current }}</p>
                   <p v-if="modalSpeaker.experience">經歷：{{ modalSpeaker.experience }}</p>
-                  <p v-if="!modalSpeaker.current && !modalSpeaker.experience">{{ modalSpeaker.desc }}</p>
+                  <p v-if="!modalSpeaker.current && !modalSpeaker.experience" v-html="modalSpeaker.desc"></p>
                 </div>
 
                 <div v-if="modalSpeaker.awards && modalSpeaker.awards.length" class="speaker_modal_section">
@@ -234,7 +234,11 @@ onUnmounted(() => {
 .speaker_item {
   display: flex;
   flex-direction: column;
-  // cursor: pointer;
+  cursor: pointer;
+}
+
+.speaker_item.no-desc {
+  cursor: default;
 }
 
 .speaker_img_wrap {
@@ -366,7 +370,7 @@ onUnmounted(() => {
   background: #e8f6f6;
 }
 
-/*
+
 @media (hover: hover) and (pointer: fine) {
   .speaker_item:hover .speaker_panel {
     max-height: 260px;
@@ -378,7 +382,6 @@ onUnmounted(() => {
     max-height: 260px;
   }
 }
-*/
 
 @media screen and (max-width: 1024px) {
   .speaker_grid {
