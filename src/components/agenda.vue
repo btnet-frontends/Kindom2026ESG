@@ -35,7 +35,7 @@ function groupSpeakers(speakers) {
         <div class="agenda_container max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
             <div class="event_header_info text-center mb-8 sm:mb-10">
                 <div class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#222222] leading-snug">
-                    2026/09/23 <span class="text-lg sm:text-xl md:text-2xl">(二)</span>
+                    2026/09/23 <span class="text-lg sm:text-xl md:text-2xl">(三)</span>
                 </div>
                 <div class="text-base sm:text-lg md:text-xl font-bold text-[#01989f] leading-snug mb-3">
                     14:00-16:30 <span class="text-sm sm:text-base md:text-lg">(13:30開放報到)</span>
